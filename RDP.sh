@@ -14,8 +14,7 @@ apt install --assume-yes xfce4 desktop-base
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'  
 sudo apt install --assume-yes xscreensaver
 sudo systemctl disable lightdm.service
-wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/85.0/linux-x86_64/vi/firefox-85.0.tar.bz2
-sudo dpkg --install firefox-85.0.tar.bz2
+sudo apt install firefox
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo adduser ALOK chrome-remote-desktop
