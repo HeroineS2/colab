@@ -14,8 +14,7 @@ apt install --assume-yes xfce4 desktop-base
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'  
 sudo apt install --assume-yes xscreensaver
 sudo systemctl disable lightdm.service
-sudo apt install flatpak
-sudo flatpak update --subpath=/vi org.mozilla.firefox.Locale
+sudo apt install firefox
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo adduser ALOK chrome-remote-desktop
