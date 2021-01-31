@@ -15,6 +15,8 @@ sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome
 sudo apt install --assume-yes xscreensaver
 sudo systemctl disable lightdm.service
 sudo apt install firefox
+wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_89.0.774.8-1_amd64.deb
+sudo dpkg --install microsoft-edge-dev_89.0.774.8-1_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo adduser ALOK chrome-remote-desktop
